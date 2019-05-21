@@ -1,0 +1,256 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    color: #000000;
+}
+header {
+    margin: 0 auto;
+    width: 1040px;
+    background-color:#212121; 
+    font-family: PT Sans Caption;
+}
+header p {
+    
+    color: #ffffff;
+}
+.container {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: url(../img/rocket.png)  no-repeat 520px 130px;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 60px;
+}
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    list-style-type: none;
+}
+.main-nav a {
+  display: block;
+  margin-right: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #d4d4d4;
+}
+.pict {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 80px;
+    padding: 0;
+    list-style: none;
+    
+}
+.pict li {
+    margin-left: 20px;
+}
+.conteiner1-1 {    
+    width: 300px;
+}
+.conteiner1-2 {    
+    
+}
+
+.conteiner1-1 h1 {  
+   font-family: "Courier New", monospace;
+    font-size: 45px;
+}
+.headTourButton{
+    border-radius: 20%;
+    padding: .5em 2em;
+     background-color: #feca30;
+    border: none;
+    width: 245px;
+    height: 50px;
+    border-radius: 25px;
+    color: black;
+}
+main {
+    margin: 0 auto;
+    width: 1040px;
+    
+}
+.advantages {       
+    display: flex;
+    color: white;
+    background-color: #121212;
+    height: 328px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#headTourButton{
+  
+    border-radius: 20%;
+    padding: .5em 2em;
+    background-color: #ffcb06;
+border: none;
+width: 240px;
+height: 50px;
+border-radius: 20px;
+}
+#buttonHelperDivForCenter{
+    text-align: center;
+    
+}
+nav{
+    display: flex;
+    color: white;
+}
+.button item li{ display: flex;
+    color: white;}
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 350%; 
+    color: white;
+   
+}
+.header_p {
+font-size: 14px;
+color: #d4d4d4;
+font-family: Verdana;
+}
+.header{
+    font-family: "PT Sans caption";
+}
+.moon{
+    justify-content: flex-end;
+    
+}
+.recommendations{
+     display: flex;
+    margin-left: 160px;
+      justify-content: space-between;
+    
+}
+.moon-vacation{
+    display: flex;
+}
+.content{
+     background-color:white;
+height: 808px;
+    flex-wrap: wrap;
+justify-content: space-between;
+}
+.conteiner1{
+    display: flex;
+    margin-left: 160px;
+      justify-content: space-between;
+}
+.d1{
+    text-align: center;
+      justify-content: space-between;
+}
+.A{
+    text-align: center;
+}
+.pic1{
+    text-align: center;
+    margin-left: 160px;
+      justify-content: space-between;
+}
+.Ggg{
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1040px;
+    
+}
+.picters{
+    
+}
+.pred{
+margin-left: 160px;
+      justify-content: space-between;
+    }
+.underfoot{
+    background-color: #212121;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.underfoot p{
+    color: white;
+}
+h4{
+    
+    font-size: 24px;
+color: #feca30;
+font-family: Courier;
+font-weight: bold;
+}
+.u{
+    color: #ffc908;
+}
+.table {
+  border: 3px solid black;
+}
+
+.td {
+  border: 3px solid lightgray;
+}
+.Ggg{
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     height:1080;
+    width: 1280px;
+}
+.a_table{
+    color: #feca30;
+}
+.table, td, th {
+border-bottom: 1px solid #555555;
+text-align: left;
+font-size: 14px;
+font-family: Verdana;
+}
+.table, td, th {
+border-bottom: 1px solid #555555;
+text-align: left;
+font-size: 14px;
+font-family: Verdana;
+}
+.table {
+width: 940px;
+height: 130px;
+border-collapse: collapse;
+}
+.td, th {
+padding: 30px;
+}
+th {
+background-color: #111111;
+}
+.underfoot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1280px;
+    height:312px;
+}
+footer {
+background-color: #131313;
+width: 1280px;
+height: 346px;
+}
+.submit{
+   
+border-radius: 20px;
+}
+.header_h {
+font-size: 45px;
+color: #ffffff;
+font-family: Courier;
+font-weight: bold;
+}
